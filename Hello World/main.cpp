@@ -8,5 +8,7 @@ int main()
 
 	tfm::printfln(str.c_str());
 
+	tfm::printfln("Appveyor test");
+
 	return 0;
 }
