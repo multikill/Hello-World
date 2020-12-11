@@ -2,7 +2,7 @@
 A simple Hello World programm with premake and vswhere.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/4qyp42vy9qdlj4xe?svg=true)](https://ci.appveyor.com/project/multikill/hello-world)
-{![Release (latest by date)](https://img.shields.io/github/v/release/multikill/Hello-World)]
+[![Release (latest by date)](https://img.shields.io/github/v/release/multikill/Hello-World)](https://github.com/multikill/Hello-World/releases)
 [![License](https://img.shields.io/github/license/multikill/Hello-World?logo=MIT)](https://github.com/multikill/Hello-World/blob/master/LICENSE.txt)
 
 ## Getting Started
