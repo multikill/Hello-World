@@ -8,7 +8,7 @@ A simple Hello World programm with premake and vswhere.
 ## Getting Started
 Visual Studio 2017 or 2019 is recommended.
 
-Start by cloning the repository with `git clone --recursive https://github.com/TheCherno/Hazel`.
+Start by cloning the repository with `git clone --recursive https://github.com/multikill/Hello-World`.
 
 If the repository was cloned non-recursively previously, use `git submodule update --init` to clone the necessary submodules.
 
