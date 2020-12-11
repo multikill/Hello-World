@@ -2,8 +2,8 @@
 A simple Hello World programm with premake and vswhere.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/4qyp42vy9qdlj4xe?svg=true)](https://ci.appveyor.com/project/multikill/hello-world)
-![Release (latest by date)](https://img.shields.io/github/v/release/multikill/Hello-World)
-![License](https://img.shields.io/github/license/multikill/Hello-World?logo=MIT)(https://github.com/multikill/Hello-World/blob/master/LICENSE.txt)
+{![Release (latest by date)](https://img.shields.io/github/v/release/multikill/Hello-World)]
+[![License](https://img.shields.io/github/license/multikill/Hello-World?logo=MIT)](https://github.com/multikill/Hello-World/blob/master/LICENSE.txt)
 
 ## Getting Started
 Visual Studio 2017 or 2019 is recommended.
