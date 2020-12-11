@@ -9,7 +9,18 @@ project "MainProject"
     location "%{prj.name}"
     kind "ConsoleApp"
     language "C++"
-    files { "**.h", "**.cpp", "**.rc", "**.ico" }
+    files 
+    { 
+        "%{prj.name}/src/**.h", 
+        "%{prj.name}/src/**.cpp", 
+        "%{prj.name}/src/**.rc", 
+        "%{prj.name}/src/**.ico" 
+    }
+
+    includedirs
+    { 
+        "%{prj.name}/vendor/tinyformat"
+    }
 
     targetdir ("bin/" .. outputdir .. "_%{prj.name}")
     objdir ("bin-obj/" .. outputdir .. "_%{prj.name}")

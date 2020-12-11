@@ -10,7 +10,6 @@
     <ClInclude Include="src\Resource\resource.h">
       <Filter>Resource</Filter>
     </ClInclude>
-    <ClInclude Include="src\tinyformat.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\PrintWrapper.cpp" />
