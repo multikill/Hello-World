@@ -15,6 +15,8 @@ project "MainProject"
     objdir ("bin-obj/" .. outputdir .. "_%{prj.name}")
     cppdialect "C++17"
 
+    flags { "MultiProcessorCompile" }
+
     filter { "configurations:Debug" }
         defines { "DEBUG" }
         symbols "On"
@@ -28,3 +30,14 @@ project "MainProject"
     
     filter { "platforms:x86"}
         architecture "x86"
+
+newaction {
+    trigger     = "clean",
+    description = "clean the software",
+    execute     = function ()
+        print("clean the build...")
+        os.rmdir("./bin")
+        os.rmdir("./bin-obj")
+        print("done.")
+    end
+}
